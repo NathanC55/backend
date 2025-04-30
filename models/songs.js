@@ -1,6 +1,5 @@
 const db = require("../db");
 
-// Create a model from the schema
 const Song = db.model("Song", {
   title: { type: String, required: true },
   artist: String,
