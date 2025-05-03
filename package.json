@@ -8,7 +8,6 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -18,5 +17,8 @@
     "jwt-simple": "^0.5.6",
     "mongoose": "^5.3.4",
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
